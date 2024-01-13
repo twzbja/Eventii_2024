@@ -13,10 +13,12 @@ class _SplashPageState extends State<SplashPage> {
     super.initState();
 
     // Ajoute un délai de 2 secondes avant de naviguer vers l'écran Onboarding.
-    Timer(
+  /*  Timer(
       Duration(seconds: 2),
           () => Navigator.pushReplacementNamed(context, '/onboarding'), // l'orientation de la route
     );
+
+   */
   }
 
   @override
